@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+h2, h3 {
+  margin: 1.5rem 0;
+}
+
+.container {
+  position:relative;
+  padding: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  padding: .7rem 1.5rem;
+  border:none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color:white;
+  margin: 1rem .5rem 1rem 0;
+  transition: transform .4s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
+.btn-blue {background-color: rgb(46, 46, 243);}
+.btn-orange {background-color: orange;}
+.btn-red {background-color: rgb(253, 37, 37);}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:.8rem;
+  font: normal 500 1.3rem / 2rem "verdana"
+}
+
+
+.flex-blackjack-1, .flex-blackjack-2, .flex-blackjack-3{
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.background {
+  background: url(./blackjack1.jpg) center/ cover no-repeat;
+  color: white;
+  border-radius: 20px;
+}
+
+
+.flex-blackjack-1 div {
+  border: 1px solid rgba(255, 255, 255, 0.555);
+  min-height: 350px;
+  flex: 1;
+}
+
+#blackjack-result {
+  font: normal 700 1.8rem / 2rem "verdana";
+}
+
+.flex-blackjack-1 span {
+  color: yellow;
+  font-size: 2rem;
+}
+#your-box {border-radius: 0 0 0 80px;}
+#dealer-box {border-radius: 0 0 80px 0;}
+
+img {
+  width:25%;
+  height: auto;
+  object-fit: cover;
+  margin:.5rem;
+}
+
+#game-over {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#game-over-content {
+  font:normal 600 2rem / 4rem "verdana";
+  color: red;
+  padding: 1.5rem;
+  border: 2px solid red;
+  margin-bottom: 2rem;
+  width: 20rem;
+  text-align: center;
+}
+
+#try-again {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: #006b00;
+  color: white;
+  max-width: 12rem;
+  text-align: center;
+  border:none;
+  outline: none;
+}
+
+
