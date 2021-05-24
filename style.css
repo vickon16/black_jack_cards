@@ -111,4 +111,13 @@ img {
   outline: none;
 }
 
+#how_to_play {
+  padding: .5rem 1rem;
+  color: white;
+  background-color: steelblue;
+  outline: none;
+  border:none;
+  border-radius: .4rem;
+}
+
 

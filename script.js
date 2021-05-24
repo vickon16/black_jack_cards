@@ -1,4 +1,10 @@
 
+
+document.getElementById("how_to_play").addEventListener("click",() => {
+  alert("This is a black jack game between user(You) and Computer(dealer).\n\nClick on the Hit button to play cards.\n\nEnsure the total number of cards played is less than 21 or You get busted!!!.\n\nWhen you feel playing the next card will result to a bust, Click on the stand button for the Dealer's(computer) turn.\n\nClick the Deal button to move to the next round.\n\nNote that if the ('Wins'+ 'Losses' + 'Draws' > 10), the game ends.")
+})
+
+
 let blackjackGame = {
   "you": { 
     "div": "#your-box",
